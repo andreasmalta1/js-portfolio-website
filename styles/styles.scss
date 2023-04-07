@@ -66,40 +66,17 @@ section{
     padding: 3rem 18rem;
 }
 
-.section{
-    transform: translateY(-100%);
+.container {
+    display: none;
+    transform: translateY(-100%) scale(0);
     transition: all .4s ease-in-out;
     background-color: var(--color-primary);
-}
-
-.sec1{
-    display: none;
-    transform: translateY(0) scale(1);
-}
-
-.sec2{
-    display: none;
-    transform: translateY(0) scale(1);
-}
-
-.sec3{
-    display: none;
-    transform: translateY(0) scale(1);
-}
-
-.sec4{
-    display: none;
-    transform: translateY(0) scale(1);
-}
-
-.sec5{
-    display: none;
-    transform: translateY(0) scale(1);
 }
 
 .active{
     display: block;
     animation: scaleAnim 1s ease-in-out;
+    transform: translateY(0%) scaleY(1);
     @keyframes scaleAnim {
         0%{
             transform: translateY(-100%) scaleY(0);
@@ -112,7 +89,6 @@ section{
 }
 
 //Controls
-
 .controls{
     position: fixed;
     z-index: 10;
@@ -151,7 +127,6 @@ section{
 }
 
 /*Theme Button*/
-
 .theme-btn{
     top: 5%;
     right: 3%;
