@@ -769,9 +769,6 @@ section {
   .main-title h2 span {
     font-size: 2.5rem;
   }
-  .main-title h2 .bg-text {
-    font-size: 3rem;
-  }
 }
 @media screen and (max-width: 1432px) {
   header {
@@ -813,9 +810,6 @@ section {
   }
   .main-title h2 span {
     font-size: 4rem;
-  }
-  .main-title h2 .bg-text {
-    font-size: 4.5rem;
   }
 }
 @media screen and (max-width: 970px) {
@@ -880,8 +874,5 @@ section {
   }
   .main-title h2 span {
     font-size: 3rem;
-  }
-  .main-title h2 .bg-text {
-    font-size: 4rem;
   }
 }/*# sourceMappingURL=styles.css.map */
